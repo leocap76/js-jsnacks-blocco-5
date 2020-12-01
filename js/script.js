@@ -40,3 +40,13 @@ let arrayFilter = (array, max, min) => {
 //       }
 //       return nuovoArray;
 //       };
+
+
+//___________________________________________________________
+//SPREAD -> Usato per concatenare o copiare
+
+const obj1 = {nome:'Leonardo'};
+const obj2 = {cognome:'Capogna'};
+const obj3 = {...obj1, ...obj2, eta:'25'};
+
+const leo = {...obj1, ...obj2,...obj3};
